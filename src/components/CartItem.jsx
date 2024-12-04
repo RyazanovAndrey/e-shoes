@@ -14,7 +14,7 @@ function CartItem({img, title}) {
 
   return (
         <div className={isVisible ? 'cart-item open' : 'cart-item'}>
-          <img src={`../public/img/${img}`} width={70} alt="" />
+          <img src={`img/${img}`} width={70} alt="" />
           <div className="cart-wrapper">
             <p>Додано до кошику:</p>
             <div className="cart-name">{title}</div>
