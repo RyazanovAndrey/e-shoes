@@ -12,7 +12,7 @@ function Products({id, title, price, size, img}) {
 
   return (
     <div className='card'>
-      <img src={`../public/img/${img}`} alt="" />
+      <img src={`e-shoes/public/img/${img}`} alt="" />
       <div className="size-wrapper">
           {size.map((item, i) => {
             return <div key={i} onClick={() => setSizeIsActive(i)} className={i == sizeActive ? 'size active' : 'size'}>{item}</div>
