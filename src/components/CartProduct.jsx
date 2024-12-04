@@ -9,7 +9,7 @@ function CartProduct({id, title, price, img, size, count, formatter}) {
 
   return (
     <div className='cart-product'>
-        <img src={`../public/img/${img}`} width={100} alt="" />
+        <img src={`e-shoes/public/img/${img}`} width={100} alt="" />
         <div className="cart-title-box">
             <h4>{title}</h4>
             <div className="code">{id}</div>

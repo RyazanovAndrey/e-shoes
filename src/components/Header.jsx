@@ -10,8 +10,8 @@ function Header() {
           <div className="wrapper">
             <div className="logo"><img src={logo} alt="" /></div>
             <nav className="menu">
-                <Link to={'/'}>Магазин</Link>
-                <Link to={'/cart'}>Кошик</Link>
+                <Link to={'/e-shoes'}>Магазин</Link>
+                <Link to={'e-shoes/cart'}>Кошик</Link>
             </nav>
             <Draiwer />
           </div>
